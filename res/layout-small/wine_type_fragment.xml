@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6B8E23"
+        android:text="@string/Selection"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Couleur"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/blanc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Blanc" />
+
+                <Button
+                    android:id="@+id/rosé"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rose" />
+
+                <Button
+                    android:id="@+id/rouge"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rouge" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Region"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/beaujolaislyonnais"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/BeaujolaisLyonnais" />
+
+                <Button
+                    android:id="@+id/bordelais"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bordelais" />
+
+                <Button
+                    android:id="@+id/bourgogne"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bourgogne" />
+
+                <Button
+                    android:id="@+id/languedoc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Languedoc" />
+
+                <Button
+                    android:id="@+id/loire"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Loire" />
+
+                <Button
+                    android:id="@+id/sudouest"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SudOuest" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AOC"
+                android:textSize="18sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/beaujolais"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Beaujolais" />
+
+                    <Button
+                        android:id="@+id/bourgogneAOC"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/BourgogneAOC" />
+
+                    <Button
+                        android:id="@+id/cabernetdanjou"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cabernet d&apos;anjou" />
+
+                    <Button
+                        android:id="@+id/coteauxdulayon"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CoteauxLayon" />
+
+                    <Button
+                        android:id="@+id/coteauxdulyonnais"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CoteauxLyonnais" />
+
+                    <Button
+                        android:id="@+id/cotesdebourg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CotesBourg" />
+
+                    <Button
+                        android:id="@+id/cotesdumarmandais"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CotesMarmandais" />
+
+                    <Button
+                        android:id="@+id/grosplant"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/GrosPlant" />
+
+                    <Button
+                        android:id="@+id/languedocAOC"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LanguedocAOC" />
+
+                    <Button
+                        android:id="@+id/muscadet"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Muscadet" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

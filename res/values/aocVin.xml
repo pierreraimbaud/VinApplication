@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="aoc">
+        <item>Beaujolais</item>
+        <item>Bourgogne</item>
+        <item>Cabernet d anjou</item>
+        <item>Coteaux du layon</item>
+        <item>Coteaux du lyonnais</item>
+        <item>Côtes de bourg</item>
+        <item>Côtes du marmandais</item>
+        <item>Gros plant</item>
+        <item>Languedoc</item>
+        <item>Muscadet</item>
+    </string-array>
+
+</resources>

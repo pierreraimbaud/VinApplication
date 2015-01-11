@@ -1,0 +1,200 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFE0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="100"
+            android:gravity="center_vertical|center"
+            android:text="@string/Accueil"
+            android:textColor="#910119"
+            android:textSize="22sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/choix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titre"
+            android:layout_marginBottom="30dp"
+            android:text="@string/Choix"
+            android:textColor="#FC5F5F"
+            android:textSize="18sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/choix"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="10dp"
+            android:background="#910119"
+            android:text="@string/NoAdd"
+            android:textColor="#F7DC66" />
+
+        <Button
+            android:id="@+id/affiche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/choix"
+            android:layout_toRightOf="@id/sans"
+            android:background="#910119"
+            android:text="@string/AfficheAjouter"
+            android:textColor="#F7DC66" />
+
+        <RelativeLayout
+            android:id="@+id/ajoutBlock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sans"
+            android:visibility="invisible" >
+
+            <!-- android:layout_below="@+id/sans" -->
+
+            <TextView
+                android:id="@+id/nomF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="4dp"
+                android:text="@string/AccNom"
+                android:textColor="#FC5F5F"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/nomF"
+                android:layout_marginBottom="20dp"
+                android:inputType="textCapSentences"
+                android:textSize="18sp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/couleurF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/nom"
+                android:layout_marginBottom="4dp"
+                android:text="@string/AccCouleur"
+                android:textColor="#FC5F5F"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/couleurs_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/couleurF"
+                android:layout_marginBottom="20dp"
+                android:entries="@array/couleur"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/regionF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/couleurs_spinner"
+                android:layout_marginBottom="4dp"
+                android:text="@string/AccRegion"
+                android:textColor="#FC5F5F"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/region_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/regionF"
+                android:layout_marginBottom="20dp"
+                android:entries="@array/region" />
+
+            <TextView
+                android:id="@+id/aocF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/region_spinner"
+                android:layout_marginBottom="4dp"
+                android:text="@string/AccAoc"
+                android:textColor="#FC5F5F"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/aoc_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aocF"
+                android:layout_marginBottom="20dp"
+                android:entries="@array/aoc" />
+
+            <TextView
+                android:id="@+id/detailF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/aoc_spinner"
+                android:layout_marginBottom="4dp"
+                android:text="@string/AccPlat"
+                android:textColor="#FC5F5F"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/detailF"
+                android:layout_marginBottom="20dp"
+                android:inputType="textCapSentences"
+                android:textSize="18sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/valider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/detail"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="10dp"
+                android:background="#910119"
+                android:text="@string/Add"
+                android:textColor="#F7DC66" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail"
+                android:layout_toRightOf="@id/valider"
+                android:background="#910119"
+                android:text="@string/Cancel"
+                android:textColor="#F7DC66" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

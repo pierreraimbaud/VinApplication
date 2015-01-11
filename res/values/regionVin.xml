@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="region">
+        <item>Beaujolais et lyonnais</item>
+        <item>Bordelais</item>
+        <item>Bourgogne</item>
+        <item>Languedoc</item>
+        <item>Loire</item>
+        <item>Sud-ouest</item>
+    </string-array>
+
+</resources>

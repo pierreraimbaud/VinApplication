@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mon catalogue de vin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="AccRegion">Région du vin</string>
+    <string name="AccAoc">AOC du vin"</string>
+    <string name="AccNom">Nom du vin</string>
+    <string name="AccCouleur">Couleur du vin</string>
+    <string name="AccPlat">Plat conseillé pour le vin</string>
+    <string name="Accueil">Accueil</string>
+    <string name="Choix">Vous pouvez accéder à votre catalogue ou ajouter d\'abord un vin.</string>
+    <string name="Add">Valider et ajouter le vin</string>
+    <string name="Cancel">Annuler</string>
+    <string name="AfficheAjouter">Ajouter un vin</string>
+    <string name="DetailFrag">Votre vin</string>
+    <string name="Selection">Sélection par</string>
+    <string name="Couleur">Couleur</string>
+    <string name="Blanc">Blanc</string>
+    <string name="Rose">Rosé</string>
+    <string name="Rouge">Rouge</string>
+    <string name="Region">Région</string>
+    <string name="BeaujolaisLyonnais">Beaujolais et lyonnais</string>
+    <string name="Bordelais">Bordelais</string>
+    <string name="Bourgogne">Bourgogne</string>
+    <string name="Languedoc">Languedoc</string>
+    <string name="Loire">Loire</string>
+    <string name="SudOuest">Sud-Ouest</string>
+    <string name="AOC">AOC</string>
+    <string name="Beaujolais">Beaujolais</string>
+    <string name="BourgogneAOC">Bourgogne</string>
+    <string name="CoteauxLayon">Coteaux du Layon</string>
+    <string name="CoteauxLyonnais">Coteaux du Lyonnais</string>
+    <string name="CotesBourg">Cotes de Bourg</string>
+    <string name="CotesMarmandais">Cotes du Marmandais</string>
+    <string name="GrosPlant">Gros Plant</string>
+    <string name="LanguedocAOC">Languedoc</string>
+    <string name="Muscadet">Muscadet</string>
+    <string name="NoAdd">Accéder au catalogue</string>
+
+</resources>
